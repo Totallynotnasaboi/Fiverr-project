@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento senza titolo</title>
+<link href="Navbar.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<ul class="nav">
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#">Products</a></li>
+  <li><a href="Contact_test.html">Contact</a></li>
+</ul>
+
+<section>
+  <div class="container">
+    <form action="https://formspree.io/f/xeqvknjn" method="POST" id="my-form">
+
+      <div class="form-group">
+        <label for="firstName"> First Name</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+
+      <div class="form-group">
+        <label for="latsName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Massage</label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+
+<script src="js/Contact.js"></script>	
+</body>
+</html>
